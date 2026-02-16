@@ -6,6 +6,12 @@ Baseline-adjusted CTR suppression modeling engine designed to measure AI search 
 
 ## Overview
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
+![Status](https://img.shields.io/badge/Status-PoC-orange)
+
 The CTR Suppression Intelligence Engine is a full-stack analytics system built to quantify organic traffic loss caused by interface-driven suppression (e.g., AI Overviews, zero-click search behavior).
 
 This engine moves beyond simple before/after comparisons by implementing:
@@ -16,6 +22,21 @@ This engine moves beyond simple before/after comparisons by implementing:
 - Intent-level suppression analysis
 - Revenue impact estimation
 - 6-month revenue projection modeling
+
+---
+
+## Problem Statement
+
+AI-driven search interfaces (AI Overviews, zero-click answers, enriched SERPs) suppress organic click-through rates even when rankings remain stable.
+
+Traditional SEO tools cannot isolate:
+
+- Interface-driven suppression
+- Revenue loss from zero-click behavior
+- Volatility patterns post-AI rollout
+- Query-level vulnerability
+
+This engine solves that by modeling expected CTR behavior and measuring deviation statistically.
 
 ---
 
@@ -81,6 +102,18 @@ Provides:
 - Intent impact analysis
 - Revenue projection
 - High-risk query detection
+
+---
+
+## Methodology
+
+1. Build historical CTR baseline by ranking position
+2. Apply baseline to post-cutoff data
+3. Filter queries with ranking instability
+4. Validate suppression via statistical testing
+5. Model revenue loss using conversion assumptions
+6. Calculate volatility-adjusted risk score
+7. Project 6-month exposure
 
 ---
 
