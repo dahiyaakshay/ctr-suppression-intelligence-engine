@@ -1,0 +1,46 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* GLOBAL TYPOGRAPHY */
+body {
+  background: #0F1117;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  color: #E6E8EC;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 14px;
+  color: #9CA3AF;
+}
+
+/* Card hover effect */
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+}
+
+.row-hover:hover {
+  background: rgba(255,255,255,0.04);
+}
