@@ -19,6 +19,22 @@ This engine moves beyond simple before/after comparisons by implementing:
 
 ---
 
+## Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](assets/dashboard-overview.png)
+
+### Suppression Intelligence
+
+![Suppression Intelligence](assets/suppression-analysis.png)
+
+### Risk & Revenue Exposure
+
+![Risk Analysis](assets/risk-analysis.png)
+
+---
+
 ## Architecture
 
 **Frontend:** React + TypeScript + Recharts  
